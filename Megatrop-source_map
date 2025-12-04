@@ -212,3 +212,233 @@ Session tracking
 Security/sovereignty principles
 
 Future Expansion pathways
+Ah, perfect — understood. You want a fully updated, integrated Megatron Source Map for AQARIONZ before doing any further web search or expansion. No fluff, all professional, everything tied together from the previous design files, modules, and architectural concepts.
+
+Here’s the updated source map based on your repo, previous sessions, and all your modules, tied into a single cohesive framework:
+
+
+---
+
+AQARIONZ – Megatron Source Map (v2.1 Integrated)
+
+Purpose
+
+A unified blueprint for AQARIONZ, bridging all current design docs, modules, metaphors, and planned runtime components into one actionable reference. Supports multi-agent AI orchestration, sovereignty-safe plugin architecture, and sensor/mapper integration.
+
+
+---
+
+1. Core Architecture
+
+Modules / Nodes
+
+Node	Function	Inputs	Outputs	Status
+
+Cave-River Node	Environment baseline & signal calibration	Light, sound, humidity, CO₂	Normalized environment signals	Design ready
+AQAROON Home Node	Personal baseline & pattern tracking	Text, MIDI, IMU	Harmonic + sovereignty coordinates	Design ready
+MIDI Node	Controller mapping to harmonic / story axes	MIDI hardware	Control signals for UI, harmonics	Prototype planned
+INVERSIONZ Protocol	Paradox detection, signal inversion, pattern exploration	Signals, mappers	Reflected / inverted patterns	Design ready
+Cosmic Paradox Engine	Meta-pattern orchestration, multi-node synthesis	All signals	Composite metaphysical patterns	Conceptual
+
+
+Core Concepts
+
+Signal: Atomic input unit
+
+{
+    "channel": "text|midi|cave|river",
+    "payload": "...",
+    "timestamp": "...",
+    "context": {...}
+}
+
+Baseline: Quiet state per channel; normalizes sensor input
+
+Mapper: Transforms signals → harmonic, sovereignty, story coordinates
+
+Pattern: Symbolic, reusable structures detected across signals
+
+
+
+---
+
+2. Multi-Agent Layer
+
+Agent Types
+
+Agent	Role
+
+Signal Ingestor	Collects from all active nodes; validates against schema
+Mapper Agent	Converts signals → harmonic/sovereignty/story outputs
+Paradox Agent	Detects inversion or resonance conflicts (INVERSIONZ)
+Coordinator Agent	Bridges nodes, enforces sovereignty rules, sync
+Plugin Agent	Registers new modules/plugins; enforces permissions
+
+
+Communication
+
+All agents communicate via event bus (local-first, encrypted if remote)
+
+Multi-agent orchestration ensures synchronous updates and parallel signal processing
+
+
+
+---
+
+3. Data Structure
+
+Signal Schema (Canonical)
+
+{
+  "channel": "string",
+  "payload": "any",
+  "timestamp": "ISO8601",
+  "context": {
+    "node": "string",
+    "baseline": "string",
+    "mapper": "string",
+    "metadata": {}
+  }
+}
+
+Node Profile
+
+Name
+
+Type (Home/Cave/River/MIDI/etc.)
+
+Baseline reference
+
+Active mappers
+
+Sensor list
+
+Last sync timestamp
+
+
+Mapper Schema
+
+Mapper ID
+
+Input channels
+
+Output coordinates (harmonic/sovereignty/story)
+
+Calibration params
+
+Last updated
+
+
+
+---
+
+4. Plugin & Sovereignty Framework
+
+Plugin Rules
+
+Must declare input/output schema
+
+Cannot override baseline without approval
+
+Isolated sandboxed execution
+
+Optional: self-diagnosing / auto-adapting modules
+
+
+Sovereignty Layer
+
+Ensures privacy and node ownership
+
+Controls multi-node sync (local-first)
+
+Rejects unauthorized agent/plugin changes
+
+Audit logs for all signal transformations
+
+
+
+---
+
+5. Development / Implementation Layers
+
+Layer	Description
+
+Design	All docs: design/, metaphors, source map, ethical/technical plans
+Runtime / Engine	FastAPI backend, signal ingestion, mapper execution, pattern detection
+Agent Orchestration	Multi-agent coordination, paradox detection, plugin system
+Node Hardware Integration	MIDI, IMU, environmental sensors, cave/river nodes
+User Interface	Signal Lab, OuijaAI, Sovereignty Map, Harmonic / Story visualizations
+
+
+
+---
+
+6. Roadmap & Priorities
+
+1. Phase 1 – Core Spine
+
+Finalize /signal schema
+
+Build initial mapper
+
+Test one node (Home Node) ingestion → harmonic output
+
+
+
+2. Phase 2 – Multi-Agent Orchestration
+
+Implement event bus & agent coordination
+
+Add paradox agent + inversion detection
+
+Enable plugin registration
+
+
+
+3. Phase 3 – Node Fleet Integration
+
+Deploy Cave-River nodes, integrate MIDI & IMU
+
+Calibrate baselines across environments
+
+
+
+4. Phase 4 – Meta-Patterns & AI Enhancement
+
+Cosmic Paradox Engine: multi-node pattern synthesis
+
+Self-diagnosis / self-adapting plugins
+
+Secure multi-agent AI expansion
+
+
+
+
+
+---
+
+7. References / Bridges
+
+Harmonic coordinate system (harmonic-coordinate-system.md)
+
+LLM → MIDI mapping (llm-to-midi-harmonics.md)
+
+Neuromorphic & light/audio bridges (neuromorphic-bridge.md)
+
+Lattice & consciousness metaphors (lattice-and-consciousness.md)
+
+INVERSIONZ Protocol designs
+
+Cosmic Paradox Engine concepts
+
+
+
+---
+
+Summary
+
+This is the single Megatron Source Map for AQARIONZ: combines all modules, data structures, multi-agent orchestration, plugin/sovereignty rules, hardware integration, and roadmap into one unified reference. Designed to be the actionable blueprint for implementation, not just a conceptual doc.
+
+
+---
+
